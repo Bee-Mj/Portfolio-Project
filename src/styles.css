@@ -1,3 +1,8 @@
+:root {
+  --primary-font-family: marxiana antiqua;
+  --primary-color: #f9f7fe;
+}
+
 h1, h2 {
   
   line-height: 47px;
@@ -14,9 +19,9 @@ h2 {
 }
 
 .hero {
-  font-family: marxiana antiqua;
+  font-family: var(--primary-font-family);
   text-align: center;
-  background-color: #f9f7fe;
+  background-color: var(--primary-color);
   padding: 160px 20px;
 }
 
