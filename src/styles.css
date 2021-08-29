@@ -1,3 +1,30 @@
+h1, h2 {
+  
+  line-height: 47px;
+ 
+}
+
 h1 {
-  color: red;
+  font-size: 54px;
+}
+
+h2 {
+  font-size: 28px;
+  font-style: italic;
+}
+
+.hero {
+  font-family: marxiana antiqua;
+  text-align: center;
+  background-color: #f9f7fe;
+  padding: 160px 20px;
+}
+
+.hero a {
+  margin-top: 25px;
+  width: 70px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 16px;
 }
