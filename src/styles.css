@@ -1,20 +1,21 @@
 :root {
-  --primary-font-family: marxiana antiqua;
   --primary-color: #f9f7fe;
+  --primary-font-family: marxiana antiqua;
+  --primary-font-size: 54px; 
+  --secondary-font-size: 28px;
+
 }
 
 h1, h2 {
-  
-  line-height: 47px;
- 
+  line-height: 49px;
 }
 
 h1 {
-  font-size: 54px;
+  font-size: var(--primary-font-size);
 }
 
 h2 {
-  font-size: 28px;
+  font-size: var(--secondary-font-size);
   font-style: italic;
 }
 
@@ -34,38 +35,28 @@ h2 {
   font-size: 16px;
 }
 
-.weather-app {
+.portfolio-title {
+  font-family: var(--primary-font-family);
+  font-size: 38px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.weather-app-img {
   width: 500px;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin: 45px;
+  background: var(--primary-color);
+  border-radius: 5px;
 }
 
-p {
-font-family: var(--primary-font-family);
-}
-
-.header {
+.weather-app-title {
+  font-size: var(--secondary-font-size);
+  font-family: var(--primary-font-family);
   font-style: italic;
   margin-top: 100px;
-  font-size: 28px;
 }
 
-.app-description {
+.weather-app-description {
+  font-family: var(--primary-font-family);
   font-size: 15px;
-}
-
-@media (max-width: 1000px) {
-  .header {
-    margin-top: 225px;
-    text-align: center;
-    display: flex;
-    justify-content: left;
-    margin-left: -230px;
-  }
-
-  .app-description {
-     display: flex;
-    justify-content: left;
-    margin-left: -230px;
-  }
 }
