@@ -61,7 +61,7 @@ background: #1B1B1B;
 height: 1500px;
 display: flex;
 flex-direction: column;
-padding: 0 144px;
+padding-left: 100px;
 }
 
 .homepage-image-row {
@@ -69,9 +69,16 @@ padding-top: 100px;
 padding-bottom: 40px;
 }
 
-.homepage-image-row2 {
-  padding-top: 40px;
+.homepage-image-row1 {
   padding-bottom: 40px;
+}
+
+.homepage-image-row2 {
+ padding-bottom: 40px;
+}
+
+.homepage-image-row3 {
+padding-bottom: 40px;
 }
 
 
