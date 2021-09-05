@@ -1,8 +1,6 @@
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Montserrat', sans-serif;*/
 
-
-
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -30,18 +28,28 @@ h3 {
 }
 
 .hero-parent {
-background-image: url(../Images/bg-s.png);
+/* background-image: url(../Images/bg-s.png);
 background-size: cover;
 background-position: center;
 height: 900px;
 display: flex;
-justify-content: center;
+justify-content: center; */
+}
+
+.hero-image {
+ display: flex;
+    justify-content: center;
+}
+
+
+.main-image {
+  max-width: 100%;
 }
 
 .hero-text {
   text-align: center;
-   margin-top: 350px;
-   
+  position: relative;
+  margin-top: -650px;
 }
 
 .hero-link {
@@ -62,7 +70,7 @@ justify-content: center;
 }
 
 .container {
-  
+  margin-top: 328px;
 }
 
 .first-line {
