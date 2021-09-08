@@ -56,6 +56,11 @@ h3 {
 }
 
 /*ABOUT PAGE*/
+.about-image {
+ max-width: 100%;
+ height: auto;
+}
+
 .about-me-text {
   margin: 125px 0;
 }
@@ -79,16 +84,36 @@ h3 {
   background-color:white;
   padding: 18px 48px;
   border-radius: 50px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .my-camera {
   margin-top: 67px;
 }
 
+.camera-info {
+  background-color: #2D2727;
+  border-radius: 3px;
+  font-weight: bold;
+  margin-right: 220px;
+  padding-left: 5px;
+  font-size: 18px;
+  margin-top: -20px;
+}
+
+.camera-info img {
+  width: 20%;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  margin-right: 8px;
+}
+
 .about-image-row {
   margin: 0 130px;
 }
+
 
 @media (max-width: 992px) {
 h1 {
@@ -120,7 +145,12 @@ h3 {
 .container {
     margin-top: 20em;
 }
+
+.about-me-section {
+text-align: center;
+  }
 }
+
 
 
 @media (max-width: 768px) {
