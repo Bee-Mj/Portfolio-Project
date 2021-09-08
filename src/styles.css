@@ -36,6 +36,7 @@ h3 {
 .hero-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  font-weight: bold;
   letter-spacing: 1px;
   text-decoration: none;
   color: #272142;
@@ -52,6 +53,41 @@ h3 {
 
 .container {
     margin-top: 400px;
+}
+
+/*ABOUT PAGE*/
+.about-me-text {
+  margin: 125px 0;
+}
+
+.about-me-text h1 {
+  color: #F65282;
+}
+
+.about-me-text p {
+  color: white;
+  margin-top: 50px;
+}
+
+.contact-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #272142;
+  background-color:white;
+  padding: 18px 48px;
+  border-radius: 50px;
+  margin-top: 60px;
+}
+
+.my-camera {
+  margin-top: 67px;
+}
+
+.about-image-row {
+  margin: 0 130px;
 }
 
 @media (max-width: 992px) {
