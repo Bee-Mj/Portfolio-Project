@@ -114,6 +114,15 @@ h3 {
   margin: 0 130px;
 }
 
+/*GALLERY PAGE*/
+
+.gallery h1 {
+  margin: 32px 0 -166px 0;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+}
+
 
 @media (max-width: 992px) {
 h1 {
@@ -226,4 +235,5 @@ h3 {
 .container {
 margin-top: 12em;
 }
+
 }
