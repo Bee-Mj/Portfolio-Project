@@ -149,6 +149,15 @@ h4 {
   font-family: 'Roboto', sans-serif;
 }
 
+.email {
+  text-decoration: none;
+  color: white;
+}
+
+.email:hover {
+color: #F65282;
+}
+
 /*NAVBAR*/
 .navbar-styling {
   background: #1B1B1B;
