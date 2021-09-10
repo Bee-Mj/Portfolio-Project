@@ -164,6 +164,23 @@ color: #F65282;
   padding: 20px 70px; 
 }
 
+/*FOOTER*/
+.footer {
+  background: #282323;
+}
+
+.footer-icons {
+  color: white; 
+}
+
+.footer-text {
+   color: white; 
+}
+
+.footer a {
+  color: white;
+}
+
 
 @media (max-width: 992px) {
 h1 {
@@ -241,6 +258,17 @@ h3 {
 .image {
   max-width: 30%;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-icons {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 }
 
 
@@ -283,5 +311,16 @@ margin-top: 12em;
 
 .image {
   max-width: 30%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-icons {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 }
