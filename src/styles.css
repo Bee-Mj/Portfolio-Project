@@ -123,6 +123,38 @@ h3 {
   text-align: center;
 }
 
+/*CONTACT PAGE*/
+.contact-page h1 {
+  margin: 0;
+  margin-top: 32px;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center
+}
+
+.contact-page-details {
+  text-align: center;
+  color: white;
+  margin-top: 142px;
+}
+
+.contact-page-details p {
+  font-size: 18px;
+}
+
+h4 {
+  color: #F65282;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*NAVBAR*/
+.navbar-styling {
+  background: #1B1B1B;
+  padding: 20px 70px; 
+}
+
 
 @media (max-width: 992px) {
 h1 {
@@ -196,6 +228,10 @@ h3 {
 .container {
     margin-top: 15em;
 }
+
+.image {
+  max-width: 30%;
+}
 }
 
 
@@ -236,4 +272,7 @@ h3 {
 margin-top: 12em;
 }
 
+.image {
+  max-width: 30%;
+}
 }
