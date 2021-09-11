@@ -12,13 +12,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="src/styles.css">
     <title>Photo Portfolio - About</title>
+    <meta name="description" content="About London based photographer Shelley White.">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-styling">
+  <div class="container-fluid">
+    <a class="navbar-brand image" href="index.html" title="Home Page">
+        <img src="images/She Codes.png" alt="SheCodes Logo">
+    </a>
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" aria-current="page" href="index.html" title="Home Page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html" title="About Page">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="gallery.html" title="Gallery Page">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html" title="Contact Page">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <div class="about-me-section container-fluid">
         <div class="row">
             <div class="col-lg-6">
                 <div class="about-image">
-                <img src="images/bg.png" class="img-fluid" alt="Photography">
+                <img src="images/bg.png" class="img-fluid" alt="Shelley White Photography">
                 </div>
             </div>
             <div class="col-lg-6">
@@ -28,9 +55,10 @@
                    <h3>Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa<br>
                     sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet<br>
                     diam suscipit pretium massa, sollicitudin in risus in. Sagittis.</h3>
-                   <p><i class="fab fa-facebook-f pe-4"></i>
-                   <i class="fab fa-instagram pe-4"></i>
-                   <i class="fab fa-linkedin-in"></i>
+                   <p>
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f pe-4" title="Go to Facebook page"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram pe-4" title="Go to Instagram page"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in" title="Go to LinkedIn page"></i></a>
                    </p>
                   <h1 class="my-camera d-none d-lg-block">MY CAMERA</h1>
                  <div class="camera-info d-none d-lg-block">
@@ -38,7 +66,7 @@
                       Olympus PEN-F Kamera Mirrorlees </p> 
                  </div> 
                  <div class="pt-4">
-                      <a href="#" class="contact-link btn btn-outline-light">CONTACT ME</a>
+                      <a href="contact.html" class="contact-link btn btn-outline-light" title="Contact Shelley White">CONTACT ME</a>
                  </div>
                 </div>
             </div>
@@ -48,17 +76,26 @@
     <div class="about-image-row container">
         <div class="row">
             <div class="col-4 mb-5 d-none d-lg-block">
-                <img src="Images/Rectangle 107.png">
+                <img src="Images/Rectangle 107.png" alt="Shelley White Photography">
             </div>
             <div class="col-4 d-none d-lg-block">
-                <img src="images/Rectangle 108.png">
+                <img src="images/Rectangle 108.png" alt="Shelley White Photography">
             </div>
             <div class="col-4 d-none d-lg-block">
-                <img src="Images/Rectangle 109.png">
+                <img src="Images/Rectangle 109.png" alt="Shelley White Photography">
             </div>
         </div>
     </div>
-    
-    
+    <footer class=" footer d-flex justify-content-evenly pt-4 pb-4 ps-5">
+        <div><img src="images/She Codes.png" alt="SheCodes Logo"></div>
+        <div class="footer-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f pe-4" title="Go to Facebook page"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram pe-4" title="Go to Instagram page"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in" title="Go to LinkedIn page"></i></a>
+        </div>
+        <p class="footer-text">
+            © 2021 SheCodes All rights reserved.
+        </p>
+    </footer>
 </body>
 </html>
